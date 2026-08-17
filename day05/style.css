@@ -1,8 +1,5 @@
 * {
   font-family: "Be Vietnam Pro", sans-serif;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 .be-vietnam-pro-thin {
@@ -352,7 +349,7 @@
 .main__text {
   font-size: 20px;
   font-weight: 700;
-  margin: 30px 0 16px 0;
+  margin: 30px 0 20px 0;
   color: #292929;
 }
 
@@ -391,11 +388,13 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  background: #f7f7f7;
+  height: 100%;
 }
 
 .course-card__title {
-  font-size: 16px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 600;
   color: #292929;
   line-height: 1.4;
 }
@@ -453,8 +452,14 @@
 .author-card__img {
   width: 22px;
   height: 22px;
-  border-radius: 50%;
   object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  border-top-color: #ea4335;
+  border-bottom-color: #34a853;
+  border-left-color: #fbbc04;
+  border-right-color: #4285f4;
+  padding: 0;
 }
 
 .author-card__name {
@@ -472,12 +477,63 @@
   border: 2px solid #f05123;
   color: #f05123;
   background: white;
-  padding: 5px 15px;
+  padding: 8px 15px;
   border-radius: 99px;
   cursor: pointer;
+  margin: 20px auto;
+}
+
+.main__wrapper-btn:hover {
+  background: #fef5f2;
+  transition: all 0.2s ease;
 }
 
 .main__wrapper {
-  display: block;
-  margin: auto;
+  display: flex;
+}
+
+.course-card__text {
+  color: #f05326;
+  font-size: 10px;
+  border-radius: 15px;
+  background: #f6e3dd;
+  padding: 5px 10px;
+  width: fit-content;
+}
+
+.main__text-text {
+  background: #1473e6;
+  color: white;
+  padding: 4px;
+  font-size: small;
+  border-radius: 5px;
+}
+
+.footer-wrapper {
+  background: black;
+  padding: 50px 100px;
+  margin: 20px;
+}
+
+.footer-text {
+  color: white;
+}
+
+.footer-wrapper-full {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-image {
+  border-radius: 10px;
+}
+
+.footer__container-address {
+  color: white;
+  line-height: 1.4;
+}
+
+.footer-address {
+  color: aliceblue;
 }
