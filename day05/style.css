@@ -1,0 +1,483 @@
+* {
+  font-family: "Be Vietnam Pro", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.be-vietnam-pro-thin {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.be-vietnam-pro-extralight {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.be-vietnam-pro-light {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.be-vietnam-pro-regular {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.be-vietnam-pro-medium {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.be-vietnam-pro-semibold {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.be-vietnam-pro-bold {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.be-vietnam-pro-extrabold {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.be-vietnam-pro-black {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.be-vietnam-pro-thin-italic {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.be-vietnam-pro-extralight-italic {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.be-vietnam-pro-light-italic {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.be-vietnam-pro-regular-italic {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.be-vietnam-pro-medium-italic {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.be-vietnam-pro-semibold-italic {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.be-vietnam-pro-bold-italic {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.be-vietnam-pro-extrabold-italic {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.be-vietnam-pro-black-italic {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 28px;
+  border-bottom: 1px solid #e8e8e8;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 100;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  max-width: 320px;
+  width: 100%;
+  height: 45px;
+  gap: 16px;
+}
+
+.header__logo-img {
+  border-radius: 8px;
+  text-decoration: none;
+  display: block;
+}
+
+.header__title {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header__search {
+  border: 2px solid #eceff3;
+  max-width: 420px;
+  width: 100%;
+  height: 40px;
+  border-radius: 99px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #757575;
+}
+
+.header__search-input {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+}
+
+.header__actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header__btn {
+  background-color: transparent;
+  border: none;
+  height: 38px;
+  padding: 0 16px;
+  border-radius: 99px;
+  color: #333333;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.header__btn:hover {
+  color: rgb(186 64 26);
+  background: rgb(254 241 238);
+}
+
+.header__avatar {
+  padding: 2px;
+}
+
+.header__avatar-img {
+  border-radius: 50%;
+  border: 2px solid transparent;
+  border-top-color: #ea4335;
+  border-bottom-color: #34a853;
+  border-left-color: #fbbc04;
+  border-right-color: #4285f4;
+  padding: 2px;
+  display: block;
+}
+
+.body-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 96px;
+  padding: 12px 0;
+  position: sticky;
+  top: 66px;
+  height: calc(100vh - 66px);
+}
+
+.sidebar__nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.sidebar__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #404040;
+  border-radius: 16px;
+  width: 72px;
+  height: 72px;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.sidebar__item-icon {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+
+.sidebar__item-text {
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.sidebar__item:hover {
+  background-color: #f5f5f5;
+  color: #000000;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px 40px;
+  overflow: hidden;
+}
+
+.main__story-text {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #292929;
+}
+
+.main-story__container {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.story-card {
+  position: relative;
+  width: 117px;
+  height: 207px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.story-card:hover {
+  transform: translateY(-5px);
+}
+
+.story-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.story-item__btn {
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 28px;
+  height: 28px;
+  background-color: #fe5621;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  border: 2px solid #ffffff;
+}
+
+.stories-item__text {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  right: 8px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.story-item__badge {
+  color: #20d5ec;
+  margin-left: 2px;
+}
+
+#color__icon-tick {
+  color: blue;
+}
+
+.banner-wrapper {
+  margin-top: 30px;
+}
+
+.main__container-img {
+  width: 100%;
+  border-radius: 15px;
+  display: block;
+}
+
+.main__text {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 30px 0 16px 0;
+  color: #292929;
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.course-card {
+  width: 280px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.course-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.course-card__img {
+  width: 100%;
+  height: 158px;
+  object-fit: cover;
+  display: block;
+}
+
+.course-card__body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.course-card__title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #292929;
+  line-height: 1.4;
+}
+
+.course-card__price {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.course-card__price del {
+  color: #757575;
+}
+
+.course-card__price-sale {
+  color: #f26922;
+  font-weight: 700;
+}
+
+.course-card__star {
+  font-size: 13px;
+  color: #757575;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.course-card__star .stars {
+  color: #f5a623;
+}
+
+.course-card__star .star-text {
+  font-weight: 600;
+  color: #333333;
+}
+
+.course-card__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #666666;
+  padding-top: 10px;
+  border-top: 1px solid #f0f0f0;
+  margin-top: 4px;
+}
+
+.author-card {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.author-card__img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-card__name {
+  font-weight: 600;
+  color: #333333;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.main__wrapper-btn {
+  border: 2px solid #f05123;
+  color: #f05123;
+  background: white;
+  padding: 5px 15px;
+  border-radius: 99px;
+  cursor: pointer;
+}
+
+.main__wrapper {
+  display: block;
+  margin: auto;
+}
