@@ -1,4 +1,4 @@
-let dis = 18;
+let dis = 0.5;
 function price(a) {
     if (a > 12) {
         return ((a - 5) * 11 + 4 * 13.5 + 15 ) * 0.9;
@@ -6,6 +6,7 @@ function price(a) {
     else if (a <= 0 ) {
         return "Không hợp lệ";
     }
+    else if (a <= 1) return 15;
     else if (a >= 5 ) {
         return ((a - 5) * 11 + 4 * 13.5 + 15 );
     }
@@ -14,4 +15,4 @@ function price(a) {
     }
 }
 
-console.log(`price: ${price(dis)}`);
+console.log(`price: ${price(dis) * 1000}đ`);
