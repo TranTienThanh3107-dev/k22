@@ -14,7 +14,9 @@ function hideEmail(email) {
     }
     return res;
 }
-
+let email = prompt("Nhập email của bạn:");
+console.log(hideEmail(email));
+// Test case
 console.log(hideEmail("alexander@gmail.com"));
 console.log(hideEmail("nguyenvana@f8.edu.vn"));
 console.log(hideEmail("frontend@example.com"));

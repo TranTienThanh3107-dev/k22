@@ -7,6 +7,9 @@ function primeNumber(a) {
     return a > 1;
 }
 
+let a  = prompt("So can check:");
+console.log(primeNumber(a));
+// Test case
 console.log(primeNumber(2));
 console.log(primeNumber(7));
 console.log(primeNumber(10));

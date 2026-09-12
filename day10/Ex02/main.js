@@ -9,8 +9,9 @@ function normalization (s) {
     }
     return res;
 }
-
-
+let s = prompt("Nhap ten cua ban");
+console.log(normalization(s));
+// Test case
 console.log(normalization("     ngUYen vaN a "));
 console.log(normalization("tRan   THI    b"));
 console.log(normalization("  le  vAn  c  "));
